@@ -1,0 +1,11 @@
+interface:
+  display_name: Server Health Scan
+  short_description: 本机只读扫描 OpenClaw 所在 Linux 环境并生成健康报告
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  allow_implicit_invocation: true
